@@ -1,0 +1,14 @@
+.sidebar-option {
+  width: 3rem;
+  height: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.sidebar-option:hover {
+  background-color: rgb(187, 231, 231);
+  transform: scale(1.1);
+}
