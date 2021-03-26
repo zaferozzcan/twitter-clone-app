@@ -15,7 +15,7 @@ import "./StyleSidebar.css";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <TwitterIcon />
+      <TwitterIcon className="sidebarTwitterIcon" />
       <SidebarOption active={true} text={"Home"} icon={<HomeIcon />} />
       <SidebarOption text={"Explore"} icon={<SearchIcon />} />
       <SidebarOption text={"Notifications"} icon={<NotificationsNoneIcon />} />

@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Feed() {
-  return <div></div>;
+  return (
+    <div className="feed">
+      <h1>Home</h1>
+    </div>
+  );
 }
