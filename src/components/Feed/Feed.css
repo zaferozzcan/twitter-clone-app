@@ -1,0 +1,17 @@
+.feed {
+  flex: 0.4;
+  min-width: fit-content;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.feed__header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  border: 1px solid var(--twitter-background);
+  padding: 15px 20px;
+}
+.feed::-webkit-scrollbar {
+  display: none;
+}
