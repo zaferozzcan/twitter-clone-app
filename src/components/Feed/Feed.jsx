@@ -8,7 +8,10 @@ export default function Feed() {
       <div className="feed__header">
         <h1>Home</h1>
       </div>
+      {/* TweetBox */}
       <TweetBox />
+
+      {/* Posts */}
     </div>
   );
 }
