@@ -19,7 +19,7 @@ const Post = forwardRef(
             <div className="post__headerText">
               <h3>
                 {displayName}{" "}
-                <span className="post__headerSpecial">
+                <span className="post__headerSpxecial">
                   {verified && <VerifiedUserIcon className="post__badge" />} @
                   {username}
                 </span>
