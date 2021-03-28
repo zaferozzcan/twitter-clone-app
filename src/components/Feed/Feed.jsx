@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Feed.css";
 import TweetBox from "./TweetBox";
+import Post from "./Post";
 import db from "../../firebase";
 
 export default function Feed() {
@@ -21,6 +22,18 @@ export default function Feed() {
       <TweetBox />
 
       {/* Posts */}
+      {posts.map((post) => {
+        return (
+          <Post
+            displayName={post.displayName}
+            username={post.username}
+            verified={post.username}
+            text={post.text}
+            avatar={post.avatar}
+            image={post.image}
+          />
+        );
+      })}
     </div>
   );
 }
